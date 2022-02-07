@@ -1,0 +1,13 @@
+{{#with book}}
+	<h1>Details for {{title}}</h1>
+	<h3>Author: {{author}}</h3>
+	<p>Description: {{description}}</p>
+	<h5>Rating: {{rating}}</h5>
+	<a href="/books/edit/{{_id}}">Edit this book</a>
+	<a href="/books/delete/{{_id}}">❌ Delete this book from the list</a>
+{{/with}}
+
+	{{!-- <h1>Details for {{book.title}}</h1>
+	<h3>Author: {{book.author}}</h3>
+	<p>Description: {{book.description}}</p>
+	<h5>Rating: {{book.rating}}</h5> --}}
